@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+<link rel="stylesheet" type="text/css" href="calDemo.css">
+</head>
+<body>
+  <h1>Javascript Calculator</h1>
+  <div id='calc'>
+    <form>
+      <input type='text' id='display'>
+      <br>
+      <input type='button' value='AC' id='keys' onclick='onScreen("c")'>
+      <input type='button' value='CE' id='keys' onclick='backspace()'>
+      <input type='button' value='+/-' id='keys' onclick='change()'>
+      <input type='button' value='/' id='keys' onclick='onScreen("/")'>
+      <br>
+      <input type='button' value='7' id='keys' onclick='onScreen("7")'>
+      <input type='button' value='8' id='keys' onclick='onScreen("8")'>
+      <input type='button' value='9' id='keys' onclick='onScreen("9")'>
+      <input type='button' value='*' id='keys' onclick='onScreen("*")'>
+      <br>
+      <input type='button' value='4' id='keys' onclick='onScreen("4")'>
+      <input type='button' value='5' id='keys' onclick='onScreen("5")'>
+      <input type='button' value='6' id='keys' onclick='onScreen("6")'>
+      <input type='button' value='-' id='keys' onclick='onScreen("-")'>
+      <br>
+      <input type='button' value='1' id='keys' onclick='onScreen("1")'>
+      <input type='button' value='2' id='keys' onclick='onScreen("2")'>
+      <input type='button' value='3' id='keys' onclick='onScreen("3")'>
+      <input type='button' value='+' id='keys' onclick='onScreen("+")'>
+      <br>
+      <input type='button' value='0' id='keys' onclick='onScreen("0")'>
+      <input type='button' value='.' id='keys' onclick='onScreen(".")'>
+      <input type='button' value='=' id='equal' onclick='answer()'>
+    </form>
+  </div>
+<script type="text/javascript" src="calDemo.js"></script>
+</body>
+
+
+</html>
